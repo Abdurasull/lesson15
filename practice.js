@@ -57,7 +57,7 @@
 // console.log(reverseWords(word));
 
 // // 5-misol Linza kodni ham linzasi boldi :) 
-// let text1 = "Saallllomlar";
+// let text1 = "Saomllrrrr";
 
 // function duplicateCount(params) {
 //     let newArr = params.split("");
@@ -65,10 +65,13 @@
 //     for(let value of newArr){
 //         newArr1.push(newArr.filter(x => x === value).length);
 //     }
-//     console.log(Math.min(...newArr1.filter(x => x !== 1)));
+//     newArr1 = newArr1.filter(x => x !==1)
+//     if(newArr1.length == 0)
+//     return 0;
+//     else return Math.min(...newArr1.filter(x => x !== 1))
 // }
 
-// duplicateCount(text1);
+// console.log(duplicateCount(text1));
 
 // // 6-misol 
 // let number1 = 189;
